@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartMed", "SmartMed\SmartMed.csproj", "{A6EFB71E-527C-425B-82BC-FF5B09C79D41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartMed.Models", "Infrastructure\SmartMed.Models\SmartMed.Models.csproj", "{CD76F988-413E-46F9-A9C0-5B955E72D595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1D9C2453-FF22-481B-996C-AEABB21F5A50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartMed.Infrastructure", "Infrastructure\SmartMed.Infrastructure\SmartMed.Infrastructure.csproj", "{49D6FEDE-6DBB-41E1-A60A-E38B7837B528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{73A10165-4CFA-47B1-B3EB-056995540A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartMed.Tests", "Tests\SmartMed.Tests\SmartMed.Tests.csproj", "{CFFB301C-5B61-46DD-8E37-D9E0EDF1032B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6EFB71E-527C-425B-82BC-FF5B09C79D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EFB71E-527C-425B-82BC-FF5B09C79D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EFB71E-527C-425B-82BC-FF5B09C79D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EFB71E-527C-425B-82BC-FF5B09C79D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD76F988-413E-46F9-A9C0-5B955E72D595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD76F988-413E-46F9-A9C0-5B955E72D595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD76F988-413E-46F9-A9C0-5B955E72D595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD76F988-413E-46F9-A9C0-5B955E72D595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D6FEDE-6DBB-41E1-A60A-E38B7837B528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D6FEDE-6DBB-41E1-A60A-E38B7837B528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D6FEDE-6DBB-41E1-A60A-E38B7837B528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D6FEDE-6DBB-41E1-A60A-E38B7837B528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFB301C-5B61-46DD-8E37-D9E0EDF1032B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFB301C-5B61-46DD-8E37-D9E0EDF1032B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFB301C-5B61-46DD-8E37-D9E0EDF1032B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFB301C-5B61-46DD-8E37-D9E0EDF1032B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD76F988-413E-46F9-A9C0-5B955E72D595} = {1D9C2453-FF22-481B-996C-AEABB21F5A50}
+		{49D6FEDE-6DBB-41E1-A60A-E38B7837B528} = {1D9C2453-FF22-481B-996C-AEABB21F5A50}
+		{CFFB301C-5B61-46DD-8E37-D9E0EDF1032B} = {73A10165-4CFA-47B1-B3EB-056995540A0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3DB3257-746E-4D23-9FDB-07068FEDD69F}
+	EndGlobalSection
+EndGlobal
